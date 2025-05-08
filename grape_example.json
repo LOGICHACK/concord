@@ -1,0 +1,19 @@
+{
+  "packName": "Concord's Fun Pack",
+  "description": "A delightful collection of emojis and stickers for Concord chat!",
+  "author": "GrapeMasterFlex",
+  "emojis": {
+    "smile": "https://placehold.co/32x32/FFC107/000000?text=Smile",
+    "wink": "https://placehold.co/32x32/4CAF50/FFFFFF?text=Wink",
+    "sad": "https://placehold.co/32x32/F44336/FFFFFF?text=Sad",
+    "dance_party": "https://placehold.co/32x32/9C27B0/FFFFFF?text=GIF+Dance",
+    "thumbs_up_gif": "https://placehold.co/32x32/2196F3/FFFFFF?text=GIF+Up"
+  },
+  "stickers": {
+    "hello_wave": "https://placehold.co/128x128/3F51B5/FFFFFF?text=Hello!",
+    "coffee_time": "https://placehold.co/128x128/795548/FFFFFF?text=Coffee",
+    "cool_sunglasses": "https://placehold.co/128x128/FF9800/000000?text=Cool",
+    "animated_celebrate": "https://placehold.co/128x128/E91E63/FFFFFF?text=GIF+Celebrate",
+    "thinking_gif": "https://placehold.co/128x128/00BCD4/FFFFFF?text=GIF+Hmm"
+  }
+}
