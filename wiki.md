@@ -54,7 +54,9 @@ module.exports = {
   onUserLeave: (leaveContext, botAPI) => {
      // botAPI.log(`User left: ${leaveContext.username}`);
   }
-};```
+}; ```
+
+
 Loading
 The server automatically loads all valid extensions from the /extensions directory when it starts. Check the server console logs for loading status and potential errors.
 
