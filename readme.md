@@ -51,7 +51,7 @@ module.exports = {
 ```
 
 
-Loading
+### Loading
 The Concord server automatically loads all valid Vines from the /vines directory when it starts. Check the server console logs for loading status and potential errors. The server component managing this could be thought of as the VineManager.
 
 The vineAPI Object
@@ -82,7 +82,7 @@ embed (Object, Optional): An embed object to include with the message (see Embed
 Embed Object Structure
 If you provide an embed object in the sendMessage options, the Concord client (if updated) can render a rich embed. The structure is:
 
-JavaScript
+```JavaScript
 
 {
   title: "String (Max 256 chars recommended)",
@@ -105,8 +105,8 @@ JavaScript
   // timestamp: "ISO 8601 String" // Optional: Timestamp shown near footer (server might add automatically)
 }
 Note: The Concord client (havenchat.html) needs specific code added to parse and render these embed objects.
-
-Command Handling
+```
+### Command Handling
 registerCommand(command, handler, description)
 Registers a chat command (prefixed with !) that your Vine will handle.
 Parameters:
